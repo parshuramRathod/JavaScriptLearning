@@ -29,3 +29,10 @@ function swap_values(value_1,value_2) {
 }
 swap_values("virat","anushka");
 swap_values(1000,2000);
+console.log("===========================================");
+var find = "JavaScript the most popular language";
+console.log(find);
+console.log(find.length);
+console.log(find.charAt(find.length-1)); 
+console.log(find.charAt(3));
+console.log(find.indexOf("S"));
