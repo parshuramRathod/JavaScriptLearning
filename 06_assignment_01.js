@@ -36,10 +36,9 @@ function stringcontain(word) {
 stringcontain("JavaScript-ES6");
 console.log("===================5=================");
 function wordcheck(word) {
-    var check = word.includes('java')
-    if (check="java") {
+    var check = word.startsWith("Java")
+    if (check==true) {
 console.log(`It starts with Java`);
-    }
-    
+    } 
 }
-wordcheck("JvaScript Language")
+wordcheck("JavaScript Language")
