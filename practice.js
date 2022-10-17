@@ -48,3 +48,27 @@ var wordLength = function (word) {
     console.log();
 }
 wordLength("     Hey you are doing good, keep it up      ");
+
+
+// function vowelCount (string) {
+    var givenString = "Hellooo";
+    var strgLowerCase = givenString.toLowerCase();
+    var vowel = "aeiou"; // can also be array
+   var result = 0;
+  
+    for (let i = 0; i < givenString.length; i++) {
+      
+      if (vowel.includes(strgLowerCase[i])) {
+        result++;
+        console.log(result);
+      }
+    }
+    // }
+  
+      
+    // return result;
+//   }
+  
+  
+  
+//   console.log(vowelCount("cAkeYE"));
