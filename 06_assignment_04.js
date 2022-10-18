@@ -35,15 +35,15 @@ var sumOfNumber = function () {
 }
 sumOfNumber();
 console.log("============= 4-Sum of square of number================");
-var sumSquare = function (num) {
+var sumSquare = function () {
     num = 0;
-    for (let index = 1; index <= 5; index++) {
-        num = num*num + index;
+    for (let index = 1; index <= 8; index++) {
+        num = index * index + num;
        
     } 
     console.log(num); 
 }
-sumSquare(0);
+sumSquare();
 console.log("=========== 5- For given string find odd and even position using function=========");
 function evenPositionChars(stringOne) {
     var stringOnelength = stringOne.length

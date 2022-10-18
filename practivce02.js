@@ -28,14 +28,14 @@ count-- //update
 
 // }
 // factNo(5)
-console.log('===========================');
-var sumSquare = function () {
-    num = 1;
-    for (let index = 1; index <= 5; index++) {
-       var numone = num*num
-       var squareadd = numone + index   
+console.log('===========sum of square of 1 to 5 number ================');
+let sumSquare = function () {
+     num = 0;
+    for (let index = 1; index <= 8; index++) {
+    
+      num = index * index + num  
        
     } 
-    console.log(squareadd); 
+    console.log(num); 
 }
 sumSquare();
