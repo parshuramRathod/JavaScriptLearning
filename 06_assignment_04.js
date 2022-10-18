@@ -24,22 +24,26 @@ var strgfunction = function (strgname) {
 }
 var returnValue = strgfunction("I love JavaScript");
 console.log(`The return value of vowel count is : ${returnValue}`);
+
 console.log("================== 3- Sum of number from 1 to 10============");
-var sumOfNumber = function (num) {
+var sumOfNumber = function () {
+    num = 0;
     for (let index = 1; index <=10; index++) {
         num = num + index;
-        console.log(num);
     }   
+    console.log(num);
 }
-sumOfNumber(1);
+sumOfNumber();
 console.log("============= 4-Sum of square of number================");
 var sumSquare = function (num) {
+    num = 0;
     for (let index = 1; index <= 5; index++) {
         num = num*num + index;
-        console.log(num); 
+       
     } 
+    console.log(num); 
 }
-sumSquare(1);
+sumSquare(0);
 console.log("=========== 5- For given string find odd and even position using function=========");
 function evenPositionChars(stringOne) {
     var stringOnelength = stringOne.length

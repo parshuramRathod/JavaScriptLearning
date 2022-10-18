@@ -29,3 +29,4 @@ function evenPositionedChars(myString){
     }
 }
 evenPositionedChars("Hard work always pays back");
+
