@@ -36,7 +36,7 @@ console.log(teacherDetails.certificates);
 delete teacherDetails.certificates.certOne;
 console.log(teacherDetails.certificates);
 console.error('------------------ certificate Added-------------------');
-teacherDetails.certificates.newCertificate = "Certification in Angular Developer"
+teacherDetails.certificates.newCertificate = "Certification in Full Stack Developer"
 console.log(teacherDetails.certificates);
 
 
