@@ -42,3 +42,5 @@ console.log(objectSachin["age"]);
 console.log(Object.entries(objectSachin));
 console.log(Object.keys(objectSachin));
 console.log(Object.values(objectSachin));
+console.log('=====================IN Operator=====================');
+age in objectSachin 
