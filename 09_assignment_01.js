@@ -34,21 +34,68 @@ console.log(walchand);
 console.log(vvpiet);
 console.log(coep);
 console.log(dypatail);
-console.log("====================================3========================================");
+console.log("====================================3 traverse ========================================");
 function traverseObject(collageNme) {
-    const collage ={
-        collegeName:'Walchand',
-        city:'Solapur',
-        totalCourses:'7'
-
+    const walchand = {
+        collegeName: 'Walchand',
+        city: 'Solapur',
+        totalCourses: '7'
     }
-    for (const key in collage) {
-        if (Object.hasOwnProperty.call(collage, key)) {
-            const element = collage[key];
-            console.log(`${key},${element}`);
+    for (const key in walchand) {
+        if (Object.hasOwnProperty.call(walchand, key)) {
+            const element = walchand[key];
+            console.log(`${key}, ${element}`);
         }
     }
-    
+    const VVPIET = {
+        collegeName: 'VVPIET',
+        city: 'Solapur',
+        totalCourses: '8'
+    }
+    for (const key in VVPIET) {
+        if (Object.hasOwnProperty.call(VVPIET, key)) {
+            const element = VVPIET[key];
+            console.log(`${key}, ${element}`);
+        }
+    }
+    const coep = {
+        collegeName: 'COEP',
+        city: 'Pune',
+        totalCourses: '7'
+    }
+    for (const key in coep) {
+        if (Object.hasOwnProperty.call(coep, key)) {
+            const element = coep[key];
+            console.log(`${key}, ${element}`);
+        }
+    }
+    const dypatail = {
+        collegeName: 'DY PATIL',
+        city: 'Pune',
+        totalCourses: '9'
+    }
+    for (const key in dypatail) {
+        if (Object.hasOwnProperty.call(dypatail, key)) {
+            const element = dypatail[key];
+            console.log(`${key}, ${element}`);
+        }
+    }
+
+
 }
 traverseObject();
+console.log("=========================fibonacci series====================");
 
+let fibonacci = function (mynum) {
+    let firstNum = 0; secNum = 1; nextNum = firstNum + secNum;  
+    for (let index = 0; index < mynum; index++) {
+         firstNum = secNum;
+         secNum = nextNum;
+         nextNum = firstNum + secNum;
+       
+        console.log(nextNum);
+    }
+}
+
+
+fibonacci(7);
