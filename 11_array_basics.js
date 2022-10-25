@@ -6,7 +6,7 @@ console.log(`Total number elements available in array: ${arrayLength}`);
 
 console.log(`Element at 4th Index is: ${arrayOfNumbers[4]}`);
 
-arrayOfNumbers[2] = 77;
+arrayOfNumbers[2] = 77;// value updated at given position
 console.log(arrayOfNumbers);
 console.log(typeof arrayOfNumbers);
 
