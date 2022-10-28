@@ -4,7 +4,7 @@ console.log('=====================Number Pushed ========================');
 array_nums.push(55, 66);
 console.log(array_nums);
 console.log('===================== Deep cloned using spread operator=====================');
-let update_nums = {...array_nums };
+let update_nums = { ...array_nums };
 array_nums[7] = 10;
 array_nums[8] = 25;
 console.log(update_nums);
@@ -14,12 +14,13 @@ const other_array = [2, 30, 14, 8];
 const merge_array = [...array_nums, ...other_array];
 console.log(merge_array);
 const employee_info = {
-    emp_id: 27,
+    emp_id: '27',
     emp_name: "John Doe",
-    salary: {
+    salary:
+    {
         july_month: '40,0000INR',
         aug_month: '50,0000INR',
-        jun_month: '65,0000INR'
+        jun_month: '65,0000INR',
     },
     adddress: {
         locality: {
@@ -33,7 +34,7 @@ const employee_info = {
     mobiles: ['+91 8600 3456 88', '1800-4567 32', '+91- 9096 5678 77']
 }
 console.log('=========================Employee details, address and mobile number logged ===========================');
-console.log(employee_info);
+console.table(employee_info);
 console.log(employee_info.adddress.locality, employee_info.adddress.city, employee_info.adddress.state, employee_info.adddress.country);
 console.log(employee_info.mobiles);
 console.log('=================================Performed deep clone using spread operator=====================');

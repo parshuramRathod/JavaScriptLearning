@@ -35,7 +35,7 @@ console.log(vvpiet);
 console.log(coep);
 console.log(dypatail);
 console.log("====================================3 traverse ========================================");
-function traverseObject(collageNme) {
+function traverseObject() {
     const walchand = {
         collegeName: 'Walchand',
         city: 'Solapur',
@@ -87,15 +87,12 @@ traverseObject();
 console.log("=========================fibonacci series====================");
 
 let fibonacci = function (mynum) {
-    let firstNum = 0; secNum = 1; nextNum = firstNum + secNum;  
+    let firstNum = 0; secNum = 1; nextNum = firstNum + secNum;
     for (let index = 0; index < mynum; index++) {
-         firstNum = secNum;
-         secNum = nextNum;
-         nextNum = firstNum + secNum;
-       
+        firstNum = secNum;
+        secNum = nextNum;
+        nextNum = firstNum + secNum;
         console.log(nextNum);
     }
 }
-
-
 fibonacci(7);
