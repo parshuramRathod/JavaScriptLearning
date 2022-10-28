@@ -1,7 +1,7 @@
 let arrayOfNumbers = [1, 3, 7, 8, 9, 3, 7];
 arrayOfNumbers[4] = 11;
 console.log(arrayOfNumbers);
-arrayOfNumbers.unshift(5,44);
+arrayOfNumbers.unshift(5,44);// add element from starting
 arrayOfNumbers.unshift(0);
 console.log(arrayOfNumbers);
 console.log('==============shift()====================');
