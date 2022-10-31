@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flex</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .container {
+            border: 3px solid black;
+            display: flex;
+            flex-direction:row;
+          width: 300px;
+         
+        }
+        div #one{
+            border: 2px solid salmon;
+            margin: 10px;
+      width: 30px;
+      height:20px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+        }
+        #two{
+            display: flex;
+            border: 3px solid yellow;
+            /* text-align: center; */
+            align-items: center;
+            margin: 10px;
+            flex: 3;
+            width: 70px;
+            justify-content: center;
+        }
+        .last{
+            border: 3px solid red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex: 2;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"> 
+        <div id="one">
+            <h3 style="border:1px solid blue;">1</h3>
+            <h4 style="border:1px solid blue;">2</h4>
+            <h5 style="border:1px solid blue;">3</h5>
+            <h2 style="border:1px solid blue;">4</h2>
+            <h3 style="border:1px solid blue;">5</h3>
+        </div>
+        <!-- <div id="one">2</div>
+        <div id="one">3</div>
+        <div id="one">4</div>
+        <div id="one">5</div> -->
+        <div id="two">6</div>
+    </div>
+    <div class="last"> 7</div>
+</body>
+
+</html>

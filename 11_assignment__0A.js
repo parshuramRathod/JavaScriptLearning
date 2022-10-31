@@ -7,9 +7,16 @@ const bank_sbi = {
 const bank_location = {
     street: "Twin Solapur",
     city: "Solapur",
-    pincode: "413001"
+    pincode: "413001",
+    details(){
+        console.log(`These are the bank address details: ${this.street},${this.city},${this.pincode}`);
+
+    }
 }
 let cloneBankdetails = Object.assign({}, bank_sbi, bank_location);
+
+console.log('================logged bank location using string template==================================');
+bank_location.details();
 console.log(`===============Cloned bankSbi and bankLocation with object assign method================`);
 console.log(cloneBankdetails);
 console.log('===============Cloned bankSbi and bankLocation with spread operator================');
