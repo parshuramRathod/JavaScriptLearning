@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB Storage</title>
+    </head>
+    <body>
+        <h2>Local Storage</h2>
+        <script>
+            window.localStorage.setItem("05","Malkee");
+            window.localStorage.setItem("09","Pramod");
+            window.localStorage.setItem("11","Rohan");
+            window.localStorage.setItem("14","Ramesh");
+            window.localStorage.setItem("18","Rahul");
+            window.localStorage.setItem("13","Prashant");
+            window.localStorage.removeItem("13");
+            
+            console.log(`The legth of setItem is ${window.localStorage.length}`);   
+           
+            console.log(window.localStorage.getItem("14"));
+            console.log(window.localStorage.getItem('11')); 
+            console.log(window.localStorage.getItem('05')); 
+            console.log(window.localStorage.getItem('09')); 
+            
+            
+            window.localStorage.clear()
+            
+
+        </script>
+    </body>
+</html>
